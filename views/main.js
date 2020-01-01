@@ -14,6 +14,7 @@ const prefix = css`
       box-shadow: 0 0 20px rgba(0,0,0,.15);
       padding: 1em;
       background-color: var(--color-white);
+
     }
     .uvp h4 {
       margin: 0.5rem 1rem 1rem 1rem;
@@ -126,7 +127,7 @@ function mainView (state, emit) {
       ${header(state)}
       <section class="content">
         <div class="uvp">
-          <h4>Test drive multi-writer Dat!</h4>
+          <h4>Curate & Share</h4>
           <p>
             This is a <b>cosmetic</b> fork of <a href="https://dat-shopping-list.glitch.me/" class="link">Dat Shopping List </a> to concept ideas for use within the 
                         <a href="https://www.telosfoundation.io//" class="link">Telos</a>
@@ -147,7 +148,7 @@ function mainView (state, emit) {
         </ul>
         <div class=${soloCta}>
           <div class="createButton">
-            ${button.button('Create a new TList', () => emit('pushState', '/create'))}
+            ${button.button('Create a new tList', () => emit('pushState', '/create'))}
           </div>
           <div class="addLinkButton">
             ${button.button('Have a Link? Paste it Here', () => emit('pushState', '/add-link'))}

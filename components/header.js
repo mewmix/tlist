@@ -50,7 +50,7 @@ function header (state) {
       <a href="/">
         <img src="/img/dat-hexagon.svg" alt="Dat Project Logo">
         <span class="title">
-          <span class="first-word">Dat</span> TList
+          <span class="first-word">Dat</span> tList
         </span>
       </a>
       ${statusDisplay(state)}
