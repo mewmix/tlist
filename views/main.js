@@ -55,9 +55,9 @@ const prefix = css`
       }
     }
     .solo {
-      background-image: url(/img/bg-landing-page.svg);
-      background-position: center;
-      background-repeat: no-repeat;
+      background-image: url(/img/graph-paper.svg);
+      background-position: fill;
+      background-repeat: infinite;
       height: 16rem;
       display: flex;
       align-items: center;
@@ -132,7 +132,7 @@ function mainView (state, emit) {
             This is a <b>cosmetic</b> fork of <a href="https://dat-shopping-list.glitch.me/" class="link">Dat Shopping List </a> to concept ideas for use within the 
                         <a href="https://www.telosfoundation.io//" class="link">Telos</a>
  community concerning the use of collaboritive tools and/or databases. 
-            <a href="https://datproject.org/" class="link">Dat Protocol</a>.
+       Check out     <a href="https://datproject.org/" class="link">Dat Protocol</a>.
           </p>
           <p>
             Curate lists and use them online or offline, and sync between multiple

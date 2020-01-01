@@ -18,7 +18,7 @@ const prefix = css`
 module.exports = createView
 
 function createView (state, emit) {
-  emit('DOMTitleChange', 'Dat TList - Create')
+  emit('DOMTitleChange', 'Dat tList - Create')
   const input = html`<input type="text" autofocus>`
   input.isSameNode = function (target) {
     return (target && target.nodeName && target.nodeName === 'INPUT')

@@ -4,7 +4,7 @@ const css = require('sheetify')
 const prefix = css`
   :host {
     color: var(--color-white);
-    background-color: var(--color-green);
+    background-color: var(--color-black);
     font-size: 1rem;
     font-weight: 700;
     text-decoration: none;
