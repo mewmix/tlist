@@ -1,0 +1,22 @@
+body {
+  display: flex;
+  flex-direction: column;,
+  font-family: 'Roboto','Arial';
+  margin: 0 auto;
+  overflow-x: hidden;
+  max-width: 800px;
+}
+
+* {
+  outline-color: var(--color-red);
+}
+
+.link {
+  text-decoration: none;
+  color: var(--color-red);
+}
+
+.link:focus {
+  outline: 1px dotted currentColor;
+}
+

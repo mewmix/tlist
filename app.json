@@ -1,0 +1,7 @@
+{
+  "name": "Dat TList",
+  "description": "fork'd dat multiwriter support (hyperdrive+hyperdb) in a PWA",
+  "repository": "https://github.com/mewmix/tlist",
+  "logo": "https://cdn.glitch.com/40b01b75-cee1-4398-b73c-95223c989e3c%2Ftelos-logo-circle.svg?v=1577789390943",
+  "keywords": ["node", "dat"]
+}
