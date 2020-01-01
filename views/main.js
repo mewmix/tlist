@@ -119,7 +119,7 @@ function mainView (state, emit) {
       }
     }
   })
-  const docHeader = documents.length > 0 ? html`<h3>Shopping Lists</h3>` : null
+  const docHeader = documents.length > 0 ? html`<h3>Lists</h3>` : null
   const soloCta = documents.length === 0 ? 'solo' : 'notSolo'
   return html`
     <body class=${prefix}>
@@ -128,13 +128,14 @@ function mainView (state, emit) {
         <div class="uvp">
           <h4>Test drive multi-writer Dat!</h4>
           <p>
-            This is a <b>Progressive Web App</b> fork of <a href="https://dat-shopping-list.glitch.me/" class="link">Dat Shopping List </a> to ignite ideas concerning the use of 
-            <b>multi-chain</b> ledgers & trust authority concerning the use of collaboritive tools and/or databases. 
-            <a href="https://datproject.org/" class="link">Dat Project</a>.
+            This is a <b>cosmetic</b> fork of <a href="https://dat-shopping-list.glitch.me/" class="link">Dat Shopping List </a> to concept ideas for use within the 
+                        <a href="https://www.telosfoundation.io//" class="link">Telos</a>
+ community concerning the use of collaboritive tools and/or databases. 
+            <a href="https://datproject.org/" class="link">Dat Protocol</a>.
           </p>
           <p>
             Curate lists and use them online or offline, and sync between multiple
-            devices or users. Read the <a href="https://blog.datproject.org/2018/05/14/dat-shopping-list/"
+            devices or users. Read the original authors' <a href="https://blog.datproject.org/2018/05/14/dat-shopping-list/"
             class="link" target="_blank">blog post!</a>
           </p>
         </p>

@@ -10,12 +10,12 @@
   "background_color": "#fff",
   "icons": [
     {
-      "src": "/img/dat-shopping-list-192.png",
+      "src": "https://cdn.glitch.com/40b01b75-cee1-4398-b73c-95223c989e3c%2Ftelos-logo-circle.png?v=1577851047473",
       "sizes": "192x192",
       "type": "image/png"
     },
     {
-      "src": "/img/dat-shopping-list-512.png",
+      "src": "https://cdn.glitch.com/40b01b75-cee1-4398-b73c-95223c989e3c%2Ftelos-logo-circle.png?v=1577851047473",
       "sizes": "512x512",
       "type": "image/png"
     }
