@@ -29,7 +29,7 @@ function createView (state, emit) {
       ${header(state)}
       <div class="content">
         <h2>
-          Enter a name for your new Tlist
+          Enter a name for your new tList
         </h2>
         <form onsubmit=${submit}>
           ${input}
