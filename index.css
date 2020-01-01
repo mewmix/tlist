@@ -1,19 +1,19 @@
 body {
   display: flex;
   flex-direction: column;,
-  font-family: 'Roboto','Arial';
+  font-family: 'Sans Serif','Verdana';
   margin: 0 auto;
   overflow-x: hidden;
   max-width: 800px;
 }
 
 * {
-  outline-color: var(--color-red);
+  outline-color: var(--color-#571aff);
 }
 
 .link {
   text-decoration: none;
-  color: var(--color-red);
+  color: var(--color-#571aff);
 }
 
 .link:focus {

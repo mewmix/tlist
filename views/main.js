@@ -128,8 +128,8 @@ function mainView (state, emit) {
         <div class="uvp">
           <h4>Test drive multi-writer Dat!</h4>
           <p>
-            This is a <b>cosmetic</b> fork of <a href="https://dat-shopping-list.glitch.me/" class="link">Dat Shopping List </a> to concept ideas for use within 
-                        <a href="https://www.telosfoundation.io//" class="link">Telos</a>.
+            This is a <b>cosmetic</b> fork of <a href="https://dat-shopping-list.glitch.me/" class="link">Dat Shopping List </a> to concept ideas for use within the 
+                        <a href="https://www.telosfoundation.io//" class="link">Telos</a>
  community concerning the use of collaboritive tools and/or databases. 
             <a href="https://datproject.org/" class="link">Dat Protocol</a>.
           </p>
