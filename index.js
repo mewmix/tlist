@@ -36,8 +36,8 @@ app.use((state, emitter) => {
 })
 
 app.use(state => {
-  state.glitchAppName = 'dat-tlist'
-  state.gitHubRepoName = 'mewmix/dat-t-list'
+  state.glitchAppName = 'tlis'
+  state.gitHubRepoName = 'mewmix/tlist'
   state.devMode = false
   state.devLabel = 'f'
 })
